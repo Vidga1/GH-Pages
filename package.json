@@ -1,27 +1,20 @@
 {
-  "name": "gh-pages",
+  "name": "gh-web-deploy",
   "version": "1.0.0",
   "description": "Command-line application for deploying to GitHub Pages",
-  "main": "build/index.js",
+  "private": false,
   "type": "module",
-  "files": [
-    "./build"
-  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Vidga1/GH-Pages.git"
+    "url": "git+https://github.com/Vidga1/GH-Pages.git"
   },
-  "keywords": [
-    "git",
-    "Github",
-    "gh-pages",
-    "CLI"
-  ],
+  "keywords": [],
   "author": "Vidga1",
-  "license": "ISC",
-  "bin": {
-    "gh-pages-deploy": "build/index.js"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Vidga1/GH-Pages/issues"
   },
+  "homepage": "https://github.com/Vidga1/GH-Pages#readme",
   "scripts": {
     "test": "jest",
     "lint": "prettier --check . && eslint . && npx tsc --noEmit",
