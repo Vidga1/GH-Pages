@@ -10,7 +10,7 @@ import {
   updateSettings,
 } from './dataProcessing';
 import { defaultSettings, userQueries } from './constants';
-import { showSuccessMessage, showWarningMessage } from './displayMessages';
+import { showSuccessMessage, showWarningMessage } from './showMessages';
 import { publish } from './publish';
 
 export const config = async () => {

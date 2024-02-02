@@ -6,7 +6,7 @@ import {
   transformInputValue,
   updateSettings,
 } from './dataProcessing';
-import { showWarningMessage } from './displayMessages';
+import { showWarningMessage } from './showMessages';
 import { defaultSettings } from './constants';
 import { publish } from './publish';
 

@@ -2,7 +2,7 @@
 
 import { OptionValues } from 'commander';
 import ghpages from 'gh-pages';
-import { showSuccessMessage, showWarningMessage } from './displayMessages';
+import { showSuccessMessage, showWarningMessage } from './showMessages';
 
 export const publish = (options: OptionValues) => {
   ghpages.publish(options.dir, options, (err) => {
