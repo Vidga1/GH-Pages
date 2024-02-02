@@ -12,5 +12,5 @@
     "strict": true,
     "skipLibCheck": true,
   },
-  // "include": ["bin/**/*"],
+  "include": ["bin/**/*"],
 }
